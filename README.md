@@ -6,15 +6,12 @@ This repository packages a signal-routing workflow for B2B SaaS teams that want 
 
 | File | What it does |
 |------|-------------|
-| .agents/skills/SKILL.md | Orchestrator and routing logic |
-| .agents/skills/signal-scoring-router.md | Scores signals using a fixed decision model and assigns route by confidence and fit. |
-| .agents/skills/champion-job-change-play.md | Runs the champion move workflow and outputs the first action path by account state. |
-| .agents/skills/new-executive-reset-play.md | Qualifies executive-hire signals and routes execution based on support context. |
-| .agents/skills/intent-signal-play.md | Handles first-party and third-party intent events with route logic and message angles. |
-| .agents/skills/minimal-stack-operator.md | Defines the minimum stack to run the workflow before adding extra tooling. |
-| esources/benchmarks/signal-benchmarks.md | Conversion rate benchmarks across different intent signal types. |
-| esources/references/signal-detection-tools.md | Directory of tooling for monitoring key buying window indicators. |
-| ECOSYSTEM.md | Cross-repo connectivity map |
+| `.agents/skills/SKILL.md` | Orchestrator and routing logic |
+| `.agents/skills/signal-scoring-router.md` | Scores signals using a fixed decision model and assigns route by confidence and fit. |
+| `.agents/skills/champion-job-change-play.md` | Runs the champion move workflow and outputs the first action path by account state. |
+| `.agents/skills/new-executive-reset-play.md` | Qualifies executive-hire signals and routes execution based on support context. |
+| `.agents/skills/intent-signal-play.md` | Handles first-party and third-party intent events with route logic and message angles. |
+| `.agents/skills/minimal-stack-operator.md` | Defines the minimum stack to run the workflow before adding extra tooling. |
 
 ## Prerequisites
 
@@ -75,5 +72,6 @@ If this saves you time, star the repo and follow
 [Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
 Built by [Forma Nôrden](https://formanorden.com/) - GTM engineering for B2B companies.
+
 
 
